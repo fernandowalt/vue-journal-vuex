@@ -4,11 +4,11 @@ import * as getters from "./getters";
 import * as mutations from "./mutations";
 
 const journalModule = {
-  namesPaced: true,
+  namespaced: true,
+  state,
   actions,
   getters,
   mutations,
-  state,
 };
 
 export default journalModule;
